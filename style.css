@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bgrd{
+    max-width: 100%;
+}
+.gbx{
+    height: 440px;
+    width: 685px;
+    background-color: rgb(27, 27, 40);
+    position: relative;
+    top: -750px;
+    left: 330px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+div > h1{
+    font-family: "Roboto";
+    color: white;
+    font-weight: 500;
+    position: relative;
+    top: 40px;
+    left: 140px;
+}
+.g1{
+    position: relative;
+    top: 45px;
+    left: 93px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 13px;
+    color:rgba(42, 163, 207, 0.806);
+}
+.img1{
+    height: 430px;
+    width: 340px;
+    position: relative;
+    top: -45px;
+    left: 10px;
+}
+.login-bx{
+    height: 440px;
+    width: 330px;
+    background-color: white;
+    position: relative;
+    top: -487px;
+    left: 355px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+}
+.lgn{
+    color:black;
+    position: relative;
+    left: 50px;
+}
+div > div > p{
+    position: relative;
+    top: 65px;
+    left: 50px;
+    font-family: "Roboto";
+}
+#eml{
+    position: relative;
+    top: 72px;
+    left: 50px;
+    height: 40px;
+    width: 220px;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+.pswd{
+    position: relative;
+    top: 77px;
+    
+}
+#password{
+    position: relative;
+    top: 85px;
+    left: 50px;
+    height: 40px;
+    width: 220px;
+    text-indent: 10px;
+    border-radius: 5px;
+}
+input[type="checkbox"]{
+    position: relative;
+    top: 90px;
+    left: 50px;
+}
+.t-c{
+    position: relative;
+    top: 70px;
+    left: 75px;
+    margin-right: 140px;
+    font-size: 15px;
+    font-weight: 300;
+}
+span{
+    color:rgba(18, 18, 68, 0.91);
+    font-weight: 500;
+    text-decoration: underline 2px;
+}
+button{
+    position:relative;
+    top: 75px;
+    left: 50px;
+    height:45px;
+    width:220px;
+    background-color: rgb(27, 27, 40);
+    color: white;
+    border-radius: 7px;
+    border-style: none;
+    
+}
+#etxt{
+    position: relative;
+    top: 75px;
+    font-size: 12px;
+    color:crimson;
+    opacity: 0;
+}
+#etxt2{
+    position: relative;
+    top: 87px;
+    font-size: 12px;
+    color:crimson;
+    opacity: 0;
+}
+#chkbx-er{
+    position: relative;
+    top: 70px;
+    left:50px;
+    font-size: 12px;
+    color:crimson;
+    opacity: 0;
+}
+@media screen and (max-width:420px){
+    html,body{
+        overflow-x: hidden;
+        height:100%;
+    }
+    .bgrd{
+        visibility: hidden;
+    }
+    .gbx{
+        position: relative;
+        top: -65vw;
+        left: -10vw;
+        
+    }
+    .title{
+        position: relative;
+        top: 10vw;
+        left: 50vw;
+    }
+    .g1{
+        position: relative;
+        top: 12vw;
+        left: 40vw;
+    }
+    .img1{
+        position: relative;
+        top: -11vw;
+        left: 20vw;
+    }
+    .login-bx{
+        position: relative;
+        top: 0vw;
+        left: 20vw;
+
+    }   
+}
+@media screen and (min-width:430px) and (max-width:1024px){
+    .bgrd{
+        position: relative;
+        top: 0vw;
+        left: 0vw;
+        height:150vw;
+    }
+    .gbx{
+        position: relative;
+        top: -125vw;
+        left: 32vw;
+        width:35vw;
+        border-radius: 0vw;
+    }
+    .login-bx{
+        position: relative;
+        top: -5vw;
+        left: 0vw;
+        width:35vw;
+        border-radius: 0vw;
+    }
+    .lgn{
+        position: relative;
+        left: 6vw;
+    }
+    div > div > p{
+        position: relative;
+        left: 6vw;
+    }
+    #eml,
+    #password{
+        position: relative;
+        left: 6vw;
+    }
+    .t-c{
+        position: relative;
+        left: 8vw;
+        margin-right: 20vw;
+    }
+    #chk-bx{
+        position: relative;
+        left: 6vw;
+    }
+    #bttn{
+        position: relative;
+        left: 6vw;
+    }
+    #chkbx-er{
+        position: relative;
+        left: 6vw;
+    }
+}
